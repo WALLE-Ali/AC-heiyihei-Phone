@@ -1,0 +1,298 @@
+
+body{
+    font-family: "微软雅黑";
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* 在移动端 禁用选中内容 */
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.gray{
+    color: #ccc;
+    text-decoration: underline;
+}
+.titleFont{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: -2.4rem;
+}
+.titleFont2{
+    font-size: 1.2em;
+    margin-left: -1.2em;
+}
+.titleFont3{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+.fontRed{
+    color: #f00;
+}
+.fontGreen{
+    color: rgb(8, 181, 20);
+}
+/* 弹窗 */
+.tanBox{
+    width: 520px;
+    height: 900px;
+    background:rgba(0, 0, 0, 0.66) ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9998;
+}
+.imgTan{
+    margin: 18rem auto;
+    position: relative;
+}
+.closeBtn{
+    display: block;
+    width: 6em;
+    height: 6em;
+    background: rgba(0, 0, 0, 0);
+    position:absolute;
+    left: 22em;
+    top:0em;
+}
+.sureBtn{
+}
+.hideStr{
+    display: none;
+}
+/* 我的激活吗 */
+.mycodeStr{
+    margin-top: -9.5em;
+}
+
+/* 恭喜获得积分 */
+.interStr{
+    margin-top:-9em;
+}
+
+/* 恭喜获得20元话费*/
+.phoneStr{
+    margin-top: -10.5em;
+}
+
+.phoneInput{
+    height: 1.8em;
+    line-height: 1.8em;
+    margin-bottom: 0.5em;
+    margin-left: -2rem;
+}
+.xiexieStr{
+    margin-top: -8em;
+}
+.exchangeRecordStr{
+    margin-top: -12em;
+    margin-left: 2.4rem;
+}
+.exchangeTab{
+    margin-left: 4.8em;
+}
+.exchangeTab td{
+    padding: 0.2em;
+}
+.interRecordStr{
+    margin-top: -12em;
+    margin-left: 2.3rem;
+}
+.interTab{
+    margin-left: 4.8em;
+}
+.interTab td{
+    padding: 0.2em;
+}
+.divList{
+    margin-top: 0.2em;
+    margin-left: -2rem;
+}
+.box{
+    text-align: center;
+    margin: 0 auto;
+    width: 506px;
+    height: 900px;
+    background: #1e0103 url(../img/bdBg2.jpg) center top no-repeat;
+    padding: 0 0.5em;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 2em
+}
+.header p{
+    line-height: 3em;
+    font-size: 0.8em;
+}
+.userBox{
+    float: left;
+    margin-left: 6%;
+}
+
+.hideBox{
+    display: none;
+}
+.recordBtn{
+    float: right;
+    margin-right: 2%;
+}
+.zoom{
+    width: 100%;
+    height: 12em;
+}
+.timeBox{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 1rem;
+}
+.time{
+    color:#ffc000;
+}
+
+/* 剩余名额*/
+.places{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    background: url(../img/num1.png) center 0 no-repeat;
+    margin-top: 1rem;
+
+}
+
+.places .nums{
+    margin: 0 auto;
+    width: 190px;
+    height: 45px;
+    text-align: center;
+
+}
+.places .nums li{
+    float: left;
+    width: 1.6rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    background: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    list-style: none;
+    margin-top: 0.3rem;
+    font-weight: bold;
+    margin-right: 0.3rem;
+
+}
+/* 活动时间 */
+.actime{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* 嘿一嘿按钮 */
+.hei{
+    text-align: center;
+    width: 156px;
+    height: 142px;
+    margin-top: 2.5em;
+    margin: 0 auto;
+    position: relative;
+}
+.heiImg{
+     pointer-events: none;
+}
+.heiFlash,.heiFlash2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.heiFlashActive{
+    animation:ease-in warn 0.8s 5;
+    -webkit-animation:ease-in warn 0.8s 5;
+
+}
+.heiFlashActive2{
+    animation:ease-in warn 0.8s 5;
+    -webkit-animation:ease-in warn 0.8s 5;
+    animation-delay:0.4s;
+    -webkit-animation-delay:0.4s;
+
+}
+
+/* 当前积分 */
+.currentInter{
+    color: #fff;
+    text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+}
+/* 按钮列表*/
+.btnUl{
+    margin: 0 auto;
+}
+.btnUl img{
+     pointer-events: none;
+}
+.interLi {
+    margin-bottom: 0.5em;
+}
+
+.codeLi{
+    margin-top: -0.5em;
+}
+
+/*  水波动画 */
+@keyframes warn {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    25% {
+        transform: scale(1.2);
+        opacity: 0.75;
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+    }
+    75% {
+        transform: scale(1.6);
+        opacity: 0.25;
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+-webkit-@keyframes warn {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    25% {
+        transform: scale(1.2);
+        opacity: 0.75;
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+    }
+    75% {
+        transform: scale(1.6);
+        opacity: 0.25;
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
